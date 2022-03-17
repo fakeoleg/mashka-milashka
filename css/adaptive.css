@@ -1,0 +1,32 @@
+* {
+    transition: all .2s;
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        width: 991px;
+    }
+    img {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 767px;
+    }
+    img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        width: 450px;
+        text-align: center;
+        font-size: 10px;
+    }
+    img {
+        width: 350px;
+    }
+}
